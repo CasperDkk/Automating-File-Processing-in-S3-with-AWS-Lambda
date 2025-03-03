@@ -15,7 +15,7 @@ def lambda_handler(event, context):
     # Convert content to uppercase
     processed_content = file_content.upper()
     
-    # Define destination bucket
+    # Define destination bucket (replace 'processed-bucket with actual name of your destination bucket)
     destination_bucket = 'processed-bucket'
     
     # Save processed file
