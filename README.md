@@ -1,5 +1,5 @@
 # Automating-File-Processing-in-S3-with-AWS-Lambda
-Below is an AWS Lambda function that automatically processes uploaded files in an S3 bucket. When a new file is added, the function will read the file, convert its contents to uppercase, and save the processed file to another S3 bucket.
+This is an AWS Lambda function that automatically processes uploaded files in an S3 bucket. When a new file is added, the function will read the file, convert its contents to uppercase, and save the processed file to another S3 bucket.
 ## Step 1: Create an S3 Bucket for Incoming Files
 1.	Log in to the AWS Management Console.
 2.	Navigate to S3 and create a new bucket (e.g., source-bucket-for-processing).
